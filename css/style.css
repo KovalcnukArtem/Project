@@ -1,0 +1,25 @@
+.container {
+    width: 1170px;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-flex {
+    height: 858px;
+    width: 1436px;
+    background-image: url(../img/Group\ 37\ \(1\)\ 1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-img-signature {
+    color: #FFFFFF;
+}
+.hero-information {
+    color: #FFFFFF;
+}
+
+
