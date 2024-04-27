@@ -23,17 +23,21 @@
             <li class="header-list-item"> <a class="header-nav-link" href="./index.html">Order</a></li>
         </ul>
         <ul class="header-lenguage">
-            <li class="header-lenguage-item">Ua</li>
-            <li class="header-lenguage-item">Eng</li>
+            <li class="header-lenguage-item"><p class="header-lenguage-item-text">
+                Ua</p></li>
+            <li class="header-lenguage-item-two"><p class="header-lenguage-item-two-text">
+                Eng</p></li>
         </ul>
         </div>
     </header>
     <main class="main">
         <section class="hero">
             <div class="container hero-flex">
-            <ul class="hero-img">
-            <img src="./img/Nike.svg" alt="Nike">
-            <img src="./img/С&R.svg" alt="С&R">
+            <ul class="hero-list">
+                <li class="hero-list-item">
+                    <img class="hero-img" src="./img/Nike.svg" alt="Nike">
+                    <img class="hero-img-two" src="./img/С&R.svg" alt="С&R">
+                </li>
             </ul>
             <ul class="hero-information">
                 <li class="hero-information-item">
@@ -53,11 +57,11 @@
             </div>
         </section>
         <section class="advantages">
-            <div class="container">
+            <div class="container advantages-flex">
                 <ul class="advantages-list">
                     <li class="advantages-list-item">
                         <figure class="advantages-examples">
-                            <h3>PremiumQuality</h3>
+                            <h3 class="advantages-headline">PremiumQuality</h3>
                             <figcaption class="advantages-signature">
                                 <img src="./img/Stars.png" alt="Stars">
                             </figcaption>
@@ -67,23 +71,58 @@
                         <figure class="advantages-examples">
                             <img src="./img/Paints.png" alt="Paints">
                             <figcaption class="advantages-signature">
-                                <h3>Indelible paint</h3>
+                                <h3 class="advantages-headline">Indelible paint</h3>
                             </figcaption>
                         </figure>
                     </li>
                     <li class="advantages-list-item">
                         <figure class="advantages-examples">
-                            <h3>Fast shipping</h3>
+                            <h3 class="advantages-headline">Fast shipping</h3>
                             <figcaption class="advantages-signature">
                                 <img src="./img/Truck.png" alt="Truck">
                             </figcaption>
                         </figure>
                     </li>
                 </ul>
-
+            </div>
+        </section>
+        <section class="registration">
+            <div class="container registration-flex">
+                <ul class="registration-list">
+                    <li class="registration-list-item"><input type="email" id="email" class="email-input" placeholder="Write your email" required></li>
+                    <li class="registration-list-item"><input type="text" id="country" class="country-input" placeholder="Your Country" required></li>
+                    <li class="registration-list-item"><input type="text" id="city" class="city-input" placeholder="Your City" required></li>
+                    <li class="registration-list-item"><input type="text" id="address" class="address-input" placeholder="Your Address" required></li>
+                    <button class="order-button">Order my Nike</button>
+                </ul>
             </div>
         </section>
     </main>
-    
+    <footer class="footer">
+        <div class="container footer-flex">
+        <ul class="footer-list">
+            <li class="footer-list-item">
+                <h2> Have a question?</h2>
+            </li>
+            <li class="footer-list-item">
+                <h2>Have a proposal for cooperation?</h2>
+            </li>
+            <li class="footer-list-item">
+                <h2>Advertising questions?</h2>
+            </li>
+        </ul>
+        <ul class="footer-list-two">
+            <li class="footer-list-two-item">
+                <a class="footer-link" href="mailto:ColoRawe_support@gmail.com">ColoRawe_support@gmail.com</a>
+            </li>
+            <li class="footer-list-two-item">
+                <a class="footer-link" href="mailto:ColoRawe_Cooperation@gmail.com">ColoRawe_Cooperation@gmail.com</a>
+            </li>
+            <li class="footer-list-two-item">
+                <a class="footer-link" href="mailto:ColoRawe_Advertising@gmail.com">ColoRawe_Advertising@gmail.com</a>
+            </li>
+        </ul>
+        </div>
+    </footer>
 </body>
 </html>
