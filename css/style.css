@@ -1,3 +1,12 @@
+:root {
+    --main-color: #FFFFFF;
+    --second-color: #C7C7C7;
+    --third-color: #DCDCDC;
+    --fourth-color: #959595;
+    --fifth-color: #8D8D8D;
+}
+
+
 .container {
     width: 1110px;
     height: 100%;
@@ -8,6 +17,88 @@
     border: 1px solid black;
     
 }
+
+body {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(28 / 24);
+}
+
+.header-nav-link {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: calc(28 / 24);
+}
+
+.header-lenguage-item-text {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: calc(1 / 24);
+    color: #DCDCDC;
+}
+
+.header-lenguage-item-two-text {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: calc(1 / 24);
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+
+.hero-information-title {
+    font-family: "Playfair Display";
+    font-weight: 400px;
+    font-size: 144px;
+    line-height: calc(192 / 144);
+    color: #FFFFFF;
+}
+
+.hero-information-headline {
+    font-family: "Playfair Display";
+    font-weight: 400px;
+    font-size: 72px;
+    line-height: calc(96 / 72);
+    color: #FFFFFF;
+}
+
+.hero-information-text {
+    font-size: 18px;
+    line-height: calc(21 / 18);
+    color: #FFFFFF;
+    width: 507px;
+}
+
+.hero-button {
+    font-size: 24px;
+    line-height: calc(28 / 24);
+}
+
+.advantages-headline {
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: calc(48 / 36);
+    color: #FFFFFF;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Секція HEADER */
 
@@ -31,8 +122,30 @@
     display: flex;
 }
 
+.header-lenguage {
+    margin-right: 167px;
+}
+
+
 .header-list-item {
     margin-right: 29px;
+}
+
+.header-img {
+    height: 60px;
+    width: 100px;
+    margin-left: 188px;
+}
+
+.header-nav-link {
+    color: #C7C7C7; /* Колір тексту в звичайному стані */
+    text-decoration: none; /* Забороняємо підкреслення */
+    transition: color 0.3s ease; /* Анімація зміни кольору */
+}
+
+.header-nav-link:hover {
+    color: #FFFFFF; /* Колір тексту при наведенні */
+    cursor: pointer; /* Змінюємо курсор при наведенні */
 }
 
 
@@ -44,16 +157,152 @@
     background-image: url(../img/Backround\ 1.png);
 }
 
-.hero-img {
-    margin-left: 152px;
+.hero-list-item {
+    margin-left: 189px;
+}
+
+.hero-img-two {
+    margin-left: 33px;
 }
 
 .hero-information {
     margin-left: 152px;
 }
 
+.hero-information-text {
+    margin-top: 12px;
+}
+
 .hero-button {
+    margin-top: 42px;
     margin-left: 152px
 }
+
+.hero-button {
+    height: 67px;
+    width: 254px;
+    background-color: #8E32C6;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-list-item img {
+    display: block;
+}
+
+/* СЕКЦІЯ advantages */
+
+.advantages-flex {
+    width: 1440px;
+    height: 606px;
+    background-image: url(../img/Backround.jpeg);
+}
+
+.advantages-examples {
+    width: 240px;
+}
+
+
+
+
+
+/* СЕКЦІЯ registration */
+
+.registration-flex {
+    width: 1440px;
+    height: 509px;
+}
+
+.registration-flex {
+    background-image: url(../img/Backround\ 3.png)
+}
+
+.email-input {
+            width: 690px;
+            height: 60px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 50px;
+            font-size: 16px;
+            outline: none;
+            text-indent: 25px; /* Початковий відступ для тексту */
+        }
+
+        .country-input {
+            width: 580px;
+            height: 50px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 50px;
+            font-size: 16px;
+            outline: none;
+            text-indent: 30px; /* Початковий відступ для тексту */
+        }
+
+        .city-input {
+            width: 580px;
+            height: 50px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 50px;
+            font-size: 16px;
+            outline: none;
+            text-indent: 30px; /* Початковий відступ для тексту */
+        }
+
+        .address-input {
+            width: 580px;
+            height: 50px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 50px;
+            font-size: 16px;
+            outline: none;
+            text-indent: 30px; /* Початковий відступ для тексту */
+        }
+
+        .order-button {
+            height: 68px;
+            width: 248px;
+            background-color: #8E32C6;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 16px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-list {
+    flex: 1; /* Займає доступний вільний простір */
+}
+
+.footer-list-two {
+    flex: 1; /* Займає доступний вільний простір */
+}
+
+
+
+
+
+.advantages-list {
+    display: flex;
+    justify-content: center; /* Розміщення елементів в ряд посередині */
+}
+
 
 
