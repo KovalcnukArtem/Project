@@ -75,7 +75,7 @@ body {
     line-height: calc(28 / 24);
 }
 
-.advantages-headline {
+.advantages-text {
     font-family: "Playfair Display";
     font-weight: 400;
     font-size: 36px;
@@ -84,6 +84,19 @@ body {
 
 }
 
+.advantages-headline {
+    font-size: "Playfair Display";
+    font-weight: 400;
+    font-size: 48px;
+    line-height: calc(64 / 48);
+    color: #FFFFFF;
+}
+
+.footer-list-item {
+    font-size: 24px;
+    line-height: calc(28 / 24);
+    color: #FFFFFF;
+}
 
 
 
@@ -204,6 +217,10 @@ body {
     background-image: url(../img/Backround.jpeg);
 }
 
+.advantages-list {
+    display: flex;
+}
+
 
 
 
@@ -221,62 +238,63 @@ body {
 }
 
 .email-input {
-            width: 690px;
-            height: 60px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 50px;
-            font-size: 16px;
-            outline: none;
-            text-indent: 25px; /* Початковий відступ для тексту */
+    width: 690px;
+    height: 60px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    font-size: 16px;
+    outline: none;
+}
+
+.country-input {
+    width: 580px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    font-size: 16px;
+    outline: none;
+}
+
+.city-input {
+    width: 580px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    outline: none;
+}
+
+.address-input {
+    width: 580px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    outline: none;
+}
+
+.order-button {
+    height: 68px;
+    width: 248px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
         }
 
-        .country-input {
-            width: 580px;
-            height: 50px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 50px;
-            font-size: 16px;
-            outline: none;
-            text-indent: 30px; /* Початковий відступ для тексту */
-        }
 
-        .city-input {
-            width: 580px;
-            height: 50px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 50px;
-            font-size: 16px;
-            outline: none;
-            text-indent: 30px; /* Початковий відступ для тексту */
-        }
+/* СЕКЦІЯ footer */
 
-        .address-input {
-            width: 580px;
-            height: 50px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 50px;
-            font-size: 16px;
-            outline: none;
-            text-indent: 30px; /* Початковий відступ для тексту */
-        }
-
-        .order-button {
-            height: 68px;
-            width: 248px;
-            background-color: #8E32C6;
-            color: white;
-            font-size: 16px;
-            border: none;
-            border-radius: 16px;
-            cursor: pointer;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+.footer-flex {
+    height: 292px;
+    width: 1440px;
+    background-color: #021635;
+}
 
 .footer-flex {
     display: flex;
@@ -289,40 +307,10 @@ body {
 }
 
 .footer-list-two {
-    flex: 1; /* Займає доступний вільний простір */
+    flex: 1; 
 }
 
 
 
 
-
-.advantages-list {
-    display: flex;
-    justify-content: center; /* Розміщення елементів в ряд посередині */
-    gap: 145px;
-}
-
-.advantages-list {
-    align-items: center;
-    height: 400px;
-    width: 1140px;
-    border: 5px solid #8E32C6;
-}
-
-.advantages-list-item {
-    height: 200px;
-}
-
-.advantages-example {
-    width: 240px;
-    height: 346px;
-}
-
-.paint {
-    display: block;
-}
-
-.shipping {
-    display: block;
-}
 
