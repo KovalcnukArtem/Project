@@ -73,6 +73,7 @@ body {
 .hero-button {
     font-size: 24px;
     line-height: calc(28 / 24);
+    color: #FFFFFF;
 }
 
 .advantages-text {
@@ -84,7 +85,7 @@ body {
 
 }
 
-.advantages-headline {
+.reviews-headline {
     font-size: "Playfair Display";
     font-weight: 400;
     font-size: 48px;
@@ -92,7 +93,27 @@ body {
     color: #FFFFFF;
 }
 
+.order-button {
+    font-size: 24px;
+    line-height: calc(28 / 24);
+    color: #FFFFFF;
+}
+
 .footer-list-item {
+    font-size: 24px;
+    line-height: calc(28 / 24);
+    color: #FFFFFF;
+}
+
+.footer-link {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: calc(28 / 24);
+    color: #FFFFFF;
+}
+
+.footer-list-item-text {
     font-size: 24px;
     line-height: calc(28 / 24);
     color: #FFFFFF;
@@ -221,9 +242,13 @@ body {
     display: flex;
 }
 
+/* СЕКЦІЯ reviews */
 
-
-
+.reviews-flex {
+    width: 1440px;
+    height: 520px;
+    background-image: url(../img/Backround\ 2.png);
+}
 
 
 /* СЕКЦІЯ registration */
@@ -278,7 +303,7 @@ body {
 .order-button {
     height: 68px;
     width: 248px;
-    background-color: #FFFFFF;
+    background-color: #8E32C6;
     border: none;
     border-radius: 16px;
     cursor: pointer;
@@ -304,12 +329,42 @@ body {
 
 .footer-list {
     flex: 1; /* Займає доступний вільний простір */
+    margin-top: 45px;
+    margin-left: 165px
 }
 
 .footer-list-two {
     flex: 1; 
 }
 
+.footer-link {
+    margin-bottom: 50px;
+}
+
+.footer-list-item-text {
+    margin-bottom: 10px;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-list-two {
+    margin-top: 45px;
+    margin-right: 165px;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-list-two-item {
+    margin-bottom: 10px;
+}
+
+.border {
+    
+}
 
 
 
