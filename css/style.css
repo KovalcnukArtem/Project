@@ -15,7 +15,6 @@
     margin-left: auto;
     margin-right: auto;
     border: 1px solid black;
-    
 }
 
 body {
@@ -242,6 +241,7 @@ body {
     display: flex;
 }
 
+
 /* СЕКЦІЯ reviews */
 
 .reviews-flex {
@@ -330,7 +330,9 @@ body {
 .footer-list {
     flex: 1; /* Займає доступний вільний простір */
     margin-top: 45px;
-    margin-left: 165px
+    margin-left: 165px;
+    width: 354px;
+    height: 104px;
 }
 
 .footer-list-two {
@@ -362,9 +364,7 @@ body {
     margin-bottom: 10px;
 }
 
-.border {
-    
-}
+
 
 
 
