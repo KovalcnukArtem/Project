@@ -1,11 +1,32 @@
+
 :root {
+    --gray-border :rgb(155, 155, 155);
+    --lavend-shadow:rgb(123, 84, 179);
+    --purple-shadow:rgb(83, 57, 120);
+    --gray-review:rgb(216, 216, 216);
+    --gray-input:rgb(149, 149, 149);
+    --purple:rgb(142, 50, 198);
+    --dark-blue:rgb(1, 45, 99);
+    --main-white:rgb(255, 255, 255);
+    --main-gray :rgb(199, 199, 199);
+    --black:rgb(2, 22, 53);
+    --turquse1-1 :rgb(0, 229, 230);
+    --blue1-2 :rgb(0, 168, 247);
+    --lavend1-3 :rgb(154, 118, 249);
+    --pink1-4 :rgb(204, 94, 194);
+    --neon-pink2-1 :rgb(255, 104, 180);
+    --magenta2-2 :rgb(255, 69, 225);
+    --lavend2-3-4 :rgb(206, 58, 255);
+    --yellow3-1:rgb(255, 225, 40);
+    --light-orange3-2:rgb(255, 155, 92);
+    --light-tomato3-3:rgb(255, 131, 129);
+    --raspberry3-4:rgb(255, 84, 137);
     --main-color: #FFFFFF;
     --second-color: #C7C7C7;
     --third-color: #DCDCDC;
     --fourth-color: #959595;
     --fifth-color: #8D8D8D;
 }
-
 
 .container {
     width: 1110px;
@@ -84,11 +105,41 @@ body {
 }
 
 .reviews-headline {
-    font-size: "Playfair Display";
+    font-family: "Playfair Display";
     font-weight: 400;
     font-size: 48px;
     line-height: calc(64 / 48);
-    color: #FFFFFF;
+    color: var(--main-color);
+}
+
+.coment {
+    font-size: 24px;
+    line-height: calc(28 / 24);
+    color: var(--main-white);
+}
+
+.reviews-date {
+    line-height: calc(16 / 14);
+    color: var(--gray-review);
+}
+
+.account-name {
+    line-height: calc(16 / 14);
+    color: var(--main-white);
+}
+
+.time-with {
+    font-size: 12px;
+    line-height: calc(14 / 12);
+    color: var(--gray-review);
+}
+
+.registration-headline {
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 48px;
+    line-height: calc(64 / 48);
+    color: var(--main-white);
 }
 
 .order-button {
@@ -230,24 +281,112 @@ body {
 
 /* СЕКЦІЯ advantages */
 
-.advantages-flex {
-    width: 1440px;
-    height: 606px;
+.advantages {
     background-image: url(../img/Backround.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 1440px;
+        height: 606px;
+        margin: 0 auto;
+}
+
+.advantages-flex {
+    display: flex;
+    justify-content: center;
 }
 
 .advantages-list {
     display: flex;
+    align-items: center;
+    border: solid 5px #8E32C6;
+    padding: 25px 50px 19px;
+    margin-top: 105px;
+    justify-content: space-between;
+    width: 1110px;
+    height: 396px;
+}
+
+.advantages-list-item:not(:last-child) {
+border-right: solid #FFFFFF 1px;
+padding-right: 70px;
 }
 
 
 /* СЕКЦІЯ reviews */
 
-.reviews-flex {
+.reviews {
+    height: 521px;
     width: 1440px;
-    height: 520px;
-    background-image: url(../img/Backround\ 2.png);
+    background-image: url(../img/Flower\ for\ backround\ 2.svg), url(../img/Backround\ 2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    border: 2px solid #FFFFFF;
 }
+
+.reviews-headline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.reviews-list-item {
+    border-radius: 15px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 255px;
+    height: 299px;
+    padding:  14px 14px 0 13px;
+    box-shadow: 0px 16px 0px -5px rgb(123, 84, 179), 0px 30px 0px -10px rgb(83, 57, 120) ;
+    padding-bottom: 10px;
+    background-image: linear-gradient(135.00deg, var(--turquse1-1)7.292% , var(--blue1-2)26.042% , var(--lavend1-3)62.5% , var(--pink1-4)100%);
+}
+
+.Elizabeth {
+    background-image: linear-gradient(135.00deg, var(--neon-pink2-1)0% , var(--magenta2-2)26.042% , var(--lavend2-3-4)62.841% , var(--lavend2-3-4)100%);
+    box-shadow: 0px 16px 0px -5px rgb(145, 89, 177), 0px 30px 0px -10px rgb(97, 51, 124);
+}
+
+.Maquare {
+    background-image: linear-gradient(135.00deg, var(--yellow3-1)0% , var(--light-orange3-2)30.208% , var(--light-tomato3-3)63.286% , var(--raspberry3-4)100%);
+    box-shadow: 0px 16px 0px -5px rgb(185, 90, 76), 0px 30px 0px -10px rgb(115, 47, 38);
+}
+
+.reviews-date {
+    color: var(--gray-review);
+    margin-top: 8px;
+    margin-bottom: 47px;
+}
+
+.coment {
+    padding-top: 35px;
+}
+
+.reviews-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: px;
+}
+
+.reviews-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.signature {
+    margin-right: 90px;
+    margin-bottom: 29px;
+}
+
+.people-img {
+    margin-bottom: 29px;
+}
+
+
 
 
 /* СЕКЦІЯ registration */
@@ -260,6 +399,8 @@ body {
 .registration-flex {
     background-image: url(../img/Backround\ 3.png)
 }
+
+
 
 .email-input {
     width: 690px;
