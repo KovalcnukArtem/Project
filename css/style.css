@@ -185,7 +185,7 @@ body {
 .header-flex {
     width: 1440px;
     display: flex;
-    justify-content: space-between; /* Всі елементи в ряду, рівномірно розподіляючи простір між ними */
+    justify-content: space-between;
     align-items: center; 
     background-color: #012D63;
 }
@@ -214,14 +214,14 @@ body {
 }
 
 .header-nav-link {
-    color: #C7C7C7; /* Колір тексту в звичайному стані */
-    text-decoration: none; /* Забороняємо підкреслення */
-    transition: color 0.3s ease; /* Анімація зміни кольору */
+    color: #C7C7C7;
+    text-decoration: none; 
+    transition: color 0.3s ease; 
 }
 
 .header-nav-link:hover {
-    color: #FFFFFF; /* Колір тексту при наведенні */
-    cursor: pointer; /* Змінюємо курсор при наведенні */
+    color: #FFFFFF; 
+    cursor: pointer; 
 }
 
 
