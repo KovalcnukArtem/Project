@@ -288,6 +288,10 @@ body {
     display: block;
 }
 
+.hero-list-item {
+    padding-top: 94px;
+}
+
 /* СЕКЦІЯ advantages */
 
 .advantages {
@@ -575,4 +579,10 @@ padding-right: 70px;
     margin-bottom: 7px;
 }
 
+.footer-link {
+    color: #FFFFFF;
+}
 
+.footer-link:hover {
+    cursor: pointer; 
+}
