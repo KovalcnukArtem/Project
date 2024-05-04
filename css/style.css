@@ -134,6 +134,30 @@ body {
     color: var(--gray-review);
 }
 
+.email-input {
+    font-size: 28px;
+    line-height: calc(33 / 28);
+    color: #959595;
+}
+
+.country-input {
+    font-size: 24px;
+    line-height: calc(28 / 24);
+    color: #959595;
+}
+
+.city-input {
+    font-size: 24px;
+    line-height: calc(28 / 24);
+    color: #959595;
+}
+
+.address-input {
+    font-size: 24px;
+    line-height: calc(28 / 24);
+    color: #959595;
+}
+
 .registration-headline {
     font-family: "Playfair Display";
     font-weight: 400;
@@ -178,16 +202,16 @@ body {
 
 /* Секція HEADER */
 
-.header {
-    height: 90px;
-}
+
 
 .header-flex {
+    height: 90px;
     width: 1440px;
     display: flex;
     justify-content: space-between;
     align-items: center; 
     background-color: #012D63;
+    margin: auto;
 }
 
 .header-list {
@@ -227,22 +251,15 @@ body {
 
 /* Секція HERO */
 
-.hero-flex {
+.hero {
+    margin: auto;
     height: 858px;
     width: 1440px;
     background-image: url(../img/Backround\ 1.png);
 }
 
-.hero-list-item {
-    margin-left: 189px;
-}
-
 .hero-img-two {
     margin-left: 33px;
-}
-
-.hero-information {
-    margin-left: 152px;
 }
 
 .hero-information-text {
@@ -251,7 +268,6 @@ body {
 
 .hero-button {
     margin-top: 42px;
-    margin-left: 152px
 }
 
 .hero-button {
@@ -276,11 +292,11 @@ body {
 
 .advantages {
     background-image: url(../img/Backround.jpeg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 1440px;
-        height: 606px;
-        margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 606px;
+    margin: 0 auto;
 }
 
 .advantages-flex {
@@ -384,16 +400,12 @@ padding-right: 70px;
 
 /* СЕКЦІЯ registration */
 
-.registration-flex {
+.registration {
+    margin: auto;
     width: 1440px;
     height: 509px;
-}
-
-.registration-flex {
     background-image: url(../img/Backround\ 3.png)
 }
-
-
 
 .email-input {
     width: 690px;
@@ -401,7 +413,6 @@ padding-right: 70px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 50px;
-    font-size: 16px;
     outline: none;
 }
 
@@ -411,7 +422,6 @@ padding-right: 70px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 50px;
-    font-size: 16px;
     outline: none;
 }
 
