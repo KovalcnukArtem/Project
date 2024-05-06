@@ -248,6 +248,15 @@ body {
     cursor: pointer; 
 }
 
+.header-nav-link {
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.header-nav-link:hover {
+    font-weight: 500;
+}
+
 
 /* Секція HERO */
 
