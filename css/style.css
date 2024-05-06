@@ -294,15 +294,15 @@ body {
 }
 
 .hero-button:hover {
-    background-color: #8a2be2; /* фіолетовий колір при наведенні */
-    color: #fff; /* колір тексту при наведенні */
-    border-color: #8a2be2; /* колір межі при наведенні */
+    background-color: #8a2be2;
+    color: #fff;
+    border-color: #8a2be2; 
 }
 
 .hero-button:active {
-    background-color: #6a1a9e; /* фіолетовий колір при натисканні */
-    border-color: #6a1a9e; /* колір межі при натисканні */
-    color: #fff; /* колір тексту при натисканні */
+    background-color: #6a1a9e; 
+    border-color: #6a1a9e;
+    color: #fff; 
 }
 
 .hero-list-item img {
@@ -341,8 +341,8 @@ body {
 }
 
 .advantages-list-item:not(:last-child) {
-border-right: solid #FFFFFF 1px;
-padding-right: 70px;
+    border-right: solid #FFFFFF 1px;
+    padding-right: 70px;
 }
 
 
