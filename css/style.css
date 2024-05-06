@@ -478,9 +478,9 @@ padding-right: 70px;
 }
 
 .order-button:active {
-    background-color: #6a1a9e; /* фіолетовий колір при натисканні */
-    border-color: #6a1a9e; /* колір межі при натисканні */
-    color: #fff; /* колір тексту при натисканні */
+    background-color: #6a1a9e; 
+    border-color: #6a1a9e;
+    color: #fff; 
 }
 
 .registration-flex {
@@ -612,10 +612,10 @@ padding-right: 70px;
 }
 
 .footer-link:hover {
-    color: #8D8D8D; /* Зміна кольору тексту при наведенні */
-    text-decoration: underline; /* Підкреслення при наведенні */
+    color: #8D8D8D; 
+    text-decoration: underline; 
 }
 
 .footer-email-link:hover {
-    color: #8D8D8D; /* Зміна кольору тексту при наведенні */
+    color: #8D8D8D; 
 }
