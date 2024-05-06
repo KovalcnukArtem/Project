@@ -284,6 +284,18 @@ body {
     align-items: center;
 }
 
+.hero-button:hover {
+    background-color: #8a2be2; /* фіолетовий колір при наведенні */
+    color: #fff; /* колір тексту при наведенні */
+    border-color: #8a2be2; /* колір межі при наведенні */
+}
+
+.hero-button:active {
+    background-color: #6a1a9e; /* фіолетовий колір при натисканні */
+    border-color: #6a1a9e; /* колір межі при натисканні */
+    color: #fff; /* колір тексту при натисканні */
+}
+
 .hero-list-item img {
     display: block;
 }
@@ -457,7 +469,19 @@ padding-right: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-        }
+}
+
+.order-button:hover {
+    background-color: #8a2be2; 
+    color: #fff;
+    border-color: #8a2be2; 
+}
+
+.order-button:active {
+    background-color: #6a1a9e; /* фіолетовий колір при натисканні */
+    border-color: #6a1a9e; /* колір межі при натисканні */
+    color: #fff; /* колір тексту при натисканні */
+}
 
 .registration-flex {
     display: flex;
@@ -585,4 +609,13 @@ padding-right: 70px;
 
 .footer-link:hover {
     cursor: pointer; 
+}
+
+.footer-link:hover {
+    color: #8D8D8D; /* Зміна кольору тексту при наведенні */
+    text-decoration: underline; /* Підкреслення при наведенні */
+}
+
+.footer-email-link:hover {
+    color: #8D8D8D; /* Зміна кольору тексту при наведенні */
 }
